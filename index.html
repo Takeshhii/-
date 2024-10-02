@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" href="main.js">
+    <title>Фотостудия “Салют” </title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Форма записи</h1>
+        <div id="error"></div>
+        <form id="validationForm">
+            <ul>
+                <li>
+                    <label for="username">ФИО:</label>
+                    <span><input id="email" name="email" type="text" /></span>
+                </li>
+                <li>
+                    <label for="username">Дата рождения:</label>
+                    <input type="date" name="text">
+                </li>
+                <li>
+                    <label for="username">Почта:</label>
+                    <span><input id="email" name="email" type="text" /></span>
+                </li>
+                <li>
+                    <label for="phone">Номер телефона:</label>
+                    <span><input id="phone" name="phone" type="text" /></span>
+                </li>
+                <li>
+                    <label for="pswd">Дата посещения:</label>
+                    <input type="date" name="">
+                </li>
+                <li>
+                    <form onsubmit="alert('submit!');return false">
+                        <input type="submit" value="Записаться" onclick="alert('Вы успешно записались на прием')">
+                    </form>
+                </li>
+            </ul>
+        </form>
+
+    </div>
+</body>
+
+</html>
